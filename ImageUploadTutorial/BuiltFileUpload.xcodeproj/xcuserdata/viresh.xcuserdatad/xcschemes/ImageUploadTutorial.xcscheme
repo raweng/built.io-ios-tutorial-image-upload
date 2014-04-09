@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42A1961318BC78490072BC4A"
                BuildableName = "ImageUploadTutorial.app"
-               BlueprintName = "ImageUploadTutorial"
-               ReferencedContainer = "container:ImageUploadTutorial.xcodeproj">
+               BlueprintName = "BuiltFileUpload"
+               ReferencedContainer = "container:BuiltFileUpload.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42A1963418BC78490072BC4A"
                BuildableName = "ImageUploadTutorialTests.xctest"
-               BlueprintName = "ImageUploadTutorialTests"
-               ReferencedContainer = "container:ImageUploadTutorial.xcodeproj">
+               BlueprintName = "BuiltFileUploadTests"
+               ReferencedContainer = "container:BuiltFileUpload.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A1961318BC78490072BC4A"
             BuildableName = "ImageUploadTutorial.app"
-            BlueprintName = "ImageUploadTutorial"
-            ReferencedContainer = "container:ImageUploadTutorial.xcodeproj">
+            BlueprintName = "BuiltFileUpload"
+            ReferencedContainer = "container:BuiltFileUpload.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A1961318BC78490072BC4A"
             BuildableName = "ImageUploadTutorial.app"
-            BlueprintName = "ImageUploadTutorial"
-            ReferencedContainer = "container:ImageUploadTutorial.xcodeproj">
+            BlueprintName = "BuiltFileUpload"
+            ReferencedContainer = "container:BuiltFileUpload.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A1961318BC78490072BC4A"
             BuildableName = "ImageUploadTutorial.app"
-            BlueprintName = "ImageUploadTutorial"
-            ReferencedContainer = "container:ImageUploadTutorial.xcodeproj">
+            BlueprintName = "BuiltFileUpload"
+            ReferencedContainer = "container:BuiltFileUpload.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

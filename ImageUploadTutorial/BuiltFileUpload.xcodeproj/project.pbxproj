@@ -102,21 +102,21 @@
 		423EDCAD18BE2ACD00215E49 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
 		423EDCB018BE2C0A00215E49 /* PhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewCell.h; sourceTree = "<group>"; };
 		423EDCB118BE2C0A00215E49 /* PhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewCell.m; sourceTree = "<group>"; };
-		42A1961418BC78490072BC4A /* ImageUploadTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageUploadTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A1961418BC78490072BC4A /* BuiltFileUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltFileUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A1961718BC78490072BC4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42A1961918BC78490072BC4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		42A1961B18BC78490072BC4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		42A1961F18BC78490072BC4A /* ImageUploadTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageUploadTutorial-Info.plist"; sourceTree = "<group>"; };
+		42A1961F18BC78490072BC4A /* BuiltFileUpload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltFileUpload-Info.plist"; sourceTree = "<group>"; };
 		42A1962118BC78490072BC4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42A1962318BC78490072BC4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42A1962518BC78490072BC4A /* ImageUploadTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageUploadTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		42A1962518BC78490072BC4A /* BuiltFileUpload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuiltFileUpload-Prefix.pch"; sourceTree = "<group>"; };
 		42A1962618BC78490072BC4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42A1962718BC78490072BC4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42A1962A18BC78490072BC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42A1962F18BC78490072BC4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		42A1963518BC78490072BC4A /* ImageUploadTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageUploadTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A1963518BC78490072BC4A /* BuiltFileUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltFileUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A1963618BC78490072BC4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		42A1963E18BC78490072BC4A /* ImageUploadTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageUploadTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		42A1963E18BC78490072BC4A /* BuiltFileUploadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltFileUploadTests-Info.plist"; sourceTree = "<group>"; };
 		42A1964018BC78490072BC4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42A1964218BC78490072BC4A /* ImageUploadTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUploadTutorialTests.m; sourceTree = "<group>"; };
 		42A1965018BC8EA60072BC4A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -253,8 +253,8 @@
 		42A1961518BC78490072BC4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42A1961418BC78490072BC4A /* ImageUploadTutorial.app */,
-				42A1963518BC78490072BC4A /* ImageUploadTutorialTests.xctest */,
+				42A1961418BC78490072BC4A /* BuiltFileUpload.app */,
+				42A1963518BC78490072BC4A /* BuiltFileUploadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -306,10 +306,10 @@
 		42A1961E18BC78490072BC4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				42A1961F18BC78490072BC4A /* ImageUploadTutorial-Info.plist */,
+				42A1961F18BC78490072BC4A /* BuiltFileUpload-Info.plist */,
 				42A1962018BC78490072BC4A /* InfoPlist.strings */,
 				42A1962318BC78490072BC4A /* main.m */,
-				42A1962518BC78490072BC4A /* ImageUploadTutorial-Prefix.pch */,
+				42A1962518BC78490072BC4A /* BuiltFileUpload-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -326,7 +326,7 @@
 		42A1963D18BC78490072BC4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				42A1963E18BC78490072BC4A /* ImageUploadTutorialTests-Info.plist */,
+				42A1963E18BC78490072BC4A /* BuiltFileUploadTests-Info.plist */,
 				42A1963F18BC78490072BC4A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -350,9 +350,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42A1961318BC78490072BC4A /* ImageUploadTutorial */ = {
+		42A1961318BC78490072BC4A /* BuiltFileUpload */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A1964618BC78490072BC4A /* Build configuration list for PBXNativeTarget "ImageUploadTutorial" */;
+			buildConfigurationList = 42A1964618BC78490072BC4A /* Build configuration list for PBXNativeTarget "BuiltFileUpload" */;
 			buildPhases = (
 				42A1961018BC78490072BC4A /* Sources */,
 				42A1961118BC78490072BC4A /* Frameworks */,
@@ -362,14 +362,14 @@
 			);
 			dependencies = (
 			);
-			name = ImageUploadTutorial;
+			name = BuiltFileUpload;
 			productName = ImageUploadTutorial;
-			productReference = 42A1961418BC78490072BC4A /* ImageUploadTutorial.app */;
+			productReference = 42A1961418BC78490072BC4A /* BuiltFileUpload.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42A1963418BC78490072BC4A /* ImageUploadTutorialTests */ = {
+		42A1963418BC78490072BC4A /* BuiltFileUploadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A1964918BC78490072BC4A /* Build configuration list for PBXNativeTarget "ImageUploadTutorialTests" */;
+			buildConfigurationList = 42A1964918BC78490072BC4A /* Build configuration list for PBXNativeTarget "BuiltFileUploadTests" */;
 			buildPhases = (
 				42A1963118BC78490072BC4A /* Sources */,
 				42A1963218BC78490072BC4A /* Frameworks */,
@@ -380,9 +380,9 @@
 			dependencies = (
 				42A1963B18BC78490072BC4A /* PBXTargetDependency */,
 			);
-			name = ImageUploadTutorialTests;
+			name = BuiltFileUploadTests;
 			productName = ImageUploadTutorialTests;
-			productReference = 42A1963518BC78490072BC4A /* ImageUploadTutorialTests.xctest */;
+			productReference = 42A1963518BC78490072BC4A /* BuiltFileUploadTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -399,7 +399,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42A1960F18BC78490072BC4A /* Build configuration list for PBXProject "ImageUploadTutorial" */;
+			buildConfigurationList = 42A1960F18BC78490072BC4A /* Build configuration list for PBXProject "BuiltFileUpload" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -412,8 +412,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42A1961318BC78490072BC4A /* ImageUploadTutorial */,
-				42A1963418BC78490072BC4A /* ImageUploadTutorialTests */,
+				42A1961318BC78490072BC4A /* BuiltFileUpload */,
+				42A1963418BC78490072BC4A /* BuiltFileUploadTests */,
 			);
 		};
 /* End PBXProject section */
@@ -486,7 +486,7 @@
 /* Begin PBXTargetDependency section */
 		42A1963B18BC78490072BC4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 42A1961318BC78490072BC4A /* ImageUploadTutorial */;
+			target = 42A1961318BC78490072BC4A /* BuiltFileUpload */;
 			targetProxy = 42A1963A18BC78490072BC4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -601,10 +601,10 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageUploadTutorial/ImageUploadTutorial-Prefix.pch";
-				INFOPLIST_FILE = "ImageUploadTutorial/ImageUploadTutorial-Info.plist";
+				GCC_PREFIX_HEADER = "ImageUploadTutorial/BuiltFileUpload-Prefix.pch";
+				INFOPLIST_FILE = "ImageUploadTutorial/BuiltFileUpload-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BuiltFileUpload;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -619,10 +619,10 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageUploadTutorial/ImageUploadTutorial-Prefix.pch";
-				INFOPLIST_FILE = "ImageUploadTutorial/ImageUploadTutorial-Info.plist";
+				GCC_PREFIX_HEADER = "ImageUploadTutorial/BuiltFileUpload-Prefix.pch";
+				INFOPLIST_FILE = "ImageUploadTutorial/BuiltFileUpload-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BuiltFileUpload;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -643,8 +643,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ImageUploadTutorialTests/ImageUploadTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ImageUploadTutorialTests/BuiltFileUploadTests-Info.plist";
+				PRODUCT_NAME = BuiltFileUploadTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -662,8 +662,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageUploadTutorial/ImageUploadTutorial-Prefix.pch";
-				INFOPLIST_FILE = "ImageUploadTutorialTests/ImageUploadTutorialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ImageUploadTutorialTests/BuiltFileUploadTests-Info.plist";
+				PRODUCT_NAME = BuiltFileUploadTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -672,7 +672,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42A1960F18BC78490072BC4A /* Build configuration list for PBXProject "ImageUploadTutorial" */ = {
+		42A1960F18BC78490072BC4A /* Build configuration list for PBXProject "BuiltFileUpload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42A1964418BC78490072BC4A /* Debug */,
@@ -681,7 +681,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A1964618BC78490072BC4A /* Build configuration list for PBXNativeTarget "ImageUploadTutorial" */ = {
+		42A1964618BC78490072BC4A /* Build configuration list for PBXNativeTarget "BuiltFileUpload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42A1964718BC78490072BC4A /* Debug */,
@@ -690,7 +690,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A1964918BC78490072BC4A /* Build configuration list for PBXNativeTarget "ImageUploadTutorialTests" */ = {
+		42A1964918BC78490072BC4A /* Build configuration list for PBXNativeTarget "BuiltFileUploadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42A1964A18BC78490072BC4A /* Debug */,

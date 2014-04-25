@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A1961318BC78490072BC4A"
-            BuildableName = "ImageUploadTutorial.app"
-            BlueprintName = "ImageUploadTutorial"
-            ReferencedContainer = "container:ImageUploadTutorial.xcodeproj">
+            BuildableName = "BuiltFileUpload.app"
+            BlueprintName = "BuiltFileUpload"
+            ReferencedContainer = "container:BuiltFileUpload.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42A1961318BC78490072BC4A"
-            BuildableName = "ImageUploadTutorial.app"
-            BlueprintName = "ImageUploadTutorial"
-            ReferencedContainer = "container:ImageUploadTutorial.xcodeproj">
+            BuildableName = "BuiltFileUpload.app"
+            BlueprintName = "BuiltFileUpload"
+            ReferencedContainer = "container:BuiltFileUpload.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

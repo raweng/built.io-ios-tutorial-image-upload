@@ -58,8 +58,6 @@
 		42EF5260190A8FF0008346CB /* Image-Upload58.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525D190A8FF0008346CB /* Image-Upload58.png */; };
 		42EF5261190A8FF0008346CB /* Image-Upload80.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525E190A8FF0008346CB /* Image-Upload80.png */; };
 		42EF5262190A8FF0008346CB /* Image-Upload120.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525F190A8FF0008346CB /* Image-Upload120.png */; };
-		7DAFAD8618D18AEE005EFC5A /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAFAD8418D18AEE005EFC5A /* BuiltIO.framework */; };
-		7DAFAD8718D18AEE005EFC5A /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7DAFAD8518D18AEE005EFC5A /* BuiltIO.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,8 +140,6 @@
 		42EF525D190A8FF0008346CB /* Image-Upload58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload58.png"; sourceTree = "<group>"; };
 		42EF525E190A8FF0008346CB /* Image-Upload80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload80.png"; sourceTree = "<group>"; };
 		42EF525F190A8FF0008346CB /* Image-Upload120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload120.png"; sourceTree = "<group>"; };
-		7DAFAD8418D18AEE005EFC5A /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
-		7DAFAD8518D18AEE005EFC5A /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +152,6 @@
 				42A1966118BC8EFE0072BC4A /* Accounts.framework in Frameworks */,
 				42A1965F18BC8EF40072BC4A /* Social.framework in Frameworks */,
 				42A1965D18BC8EEA0072BC4A /* Twitter.framework in Frameworks */,
-				7DAFAD8618D18AEE005EFC5A /* BuiltIO.framework in Frameworks */,
 				42A1965B18BC8EE20072BC4A /* CoreLocation.framework in Frameworks */,
 				42A1965918BC8ED80072BC4A /* CoreTelephony.framework in Frameworks */,
 				42A1965718BC8ED00072BC4A /* CFNetwork.framework in Frameworks */,
@@ -268,8 +263,6 @@
 		42A1961618BC78490072BC4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7DAFAD8418D18AEE005EFC5A /* BuiltIO.framework */,
-				7DAFAD8518D18AEE005EFC5A /* BuiltIO.bundle */,
 				423DA30E18BF467600A3C787 /* ImageIO.framework */,
 				423DA30C18BF466500A3C787 /* SDWebImage.framework */,
 				423EDCA618BDFE4300215E49 /* MobileCoreServices.framework */,
@@ -447,7 +440,6 @@
 				42A1966D18BCC6FA0072BC4A /* sample_2.jpg in Resources */,
 				42A1962218BC78490072BC4A /* InfoPlist.strings in Resources */,
 				42A1962B18BC78490072BC4A /* Main.storyboard in Resources */,
-				7DAFAD8718D18AEE005EFC5A /* BuiltIO.bundle in Resources */,
 				42A1966B18BCC6FA0072BC4A /* sample_0.jpg in Resources */,
 				42EF5260190A8FF0008346CB /* Image-Upload58.png in Resources */,
 				42A1967218BCC6FA0072BC4A /* sample_7.jpg in Resources */,

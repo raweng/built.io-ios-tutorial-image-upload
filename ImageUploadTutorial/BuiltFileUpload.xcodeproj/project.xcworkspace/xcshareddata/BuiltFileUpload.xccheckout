@@ -12,6 +12,8 @@
 	<dict>
 		<key>12A57F2B-F50F-4D9E-8363-8F902A09EA93</key>
 		<string>https://github.com/raweng/built.io-ios-tutorial-image-upload.git</string>
+		<key>C3D93E47-AC2B-4114-841B-A28D7A7A292D</key>
+		<string>https://github.com/raweng/built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ImageUploadTutorial/BuiltFileUpload.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>12A57F2B-F50F-4D9E-8363-8F902A09EA93</key>
 		<string>../../..</string>
+		<key>C3D93E47-AC2B-4114-841B-A28D7A7A292D</key>
+		<string>../../../built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/raweng/built.io-ios-tutorial-image-upload.git</string>
@@ -35,6 +39,14 @@
 			<string>12A57F2B-F50F-4D9E-8363-8F902A09EA93</string>
 			<key>IDESourceControlWCCName</key>
 			<string>built</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C3D93E47-AC2B-4114-841B-A28D7A7A292D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>built.io-ios-framework</string>
 		</dict>
 	</array>
 </dict>

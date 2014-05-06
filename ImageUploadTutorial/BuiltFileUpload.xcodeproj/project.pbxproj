@@ -55,6 +55,8 @@
 		42A1967018BCC6FA0072BC4A /* sample_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A1966818BCC6FA0072BC4A /* sample_5.jpg */; };
 		42A1967118BCC6FA0072BC4A /* sample_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A1966918BCC6FA0072BC4A /* sample_6.jpg */; };
 		42A1967218BCC6FA0072BC4A /* sample_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A1966A18BCC6FA0072BC4A /* sample_7.jpg */; };
+		42D106831917C5AB003A7807 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42D106811917C5AA003A7807 /* BuiltIO.bundle */; };
+		42D106841917C5AB003A7807 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D106821917C5AB003A7807 /* BuiltIO.framework */; };
 		42EF5260190A8FF0008346CB /* Image-Upload58.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525D190A8FF0008346CB /* Image-Upload58.png */; };
 		42EF5261190A8FF0008346CB /* Image-Upload80.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525E190A8FF0008346CB /* Image-Upload80.png */; };
 		42EF5262190A8FF0008346CB /* Image-Upload120.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525F190A8FF0008346CB /* Image-Upload120.png */; };
@@ -137,6 +139,8 @@
 		42A1966818BCC6FA0072BC4A /* sample_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_5.jpg; sourceTree = "<group>"; };
 		42A1966918BCC6FA0072BC4A /* sample_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_6.jpg; sourceTree = "<group>"; };
 		42A1966A18BCC6FA0072BC4A /* sample_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_7.jpg; sourceTree = "<group>"; };
+		42D106811917C5AA003A7807 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
+		42D106821917C5AB003A7807 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
 		42EF525D190A8FF0008346CB /* Image-Upload58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload58.png"; sourceTree = "<group>"; };
 		42EF525E190A8FF0008346CB /* Image-Upload80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload80.png"; sourceTree = "<group>"; };
 		42EF525F190A8FF0008346CB /* Image-Upload120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload120.png"; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 				42A1966118BC8EFE0072BC4A /* Accounts.framework in Frameworks */,
 				42A1965F18BC8EF40072BC4A /* Social.framework in Frameworks */,
 				42A1965D18BC8EEA0072BC4A /* Twitter.framework in Frameworks */,
+				42D106841917C5AB003A7807 /* BuiltIO.framework in Frameworks */,
 				42A1965B18BC8EE20072BC4A /* CoreLocation.framework in Frameworks */,
 				42A1965918BC8ED80072BC4A /* CoreTelephony.framework in Frameworks */,
 				42A1965718BC8ED00072BC4A /* CFNetwork.framework in Frameworks */,
@@ -263,6 +268,8 @@
 		42A1961618BC78490072BC4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42D106811917C5AA003A7807 /* BuiltIO.bundle */,
+				42D106821917C5AB003A7807 /* BuiltIO.framework */,
 				423DA30E18BF467600A3C787 /* ImageIO.framework */,
 				423DA30C18BF466500A3C787 /* SDWebImage.framework */,
 				423EDCA618BDFE4300215E49 /* MobileCoreServices.framework */,
@@ -444,6 +451,7 @@
 				42EF5260190A8FF0008346CB /* Image-Upload58.png in Resources */,
 				42A1967218BCC6FA0072BC4A /* sample_7.jpg in Resources */,
 				42A1966F18BCC6FA0072BC4A /* sample_4.jpg in Resources */,
+				42D106831917C5AB003A7807 /* BuiltIO.bundle in Resources */,
 				423DA31718BF6CA200A3C787 /* Done.png in Resources */,
 				42EF5262190A8FF0008346CB /* Image-Upload120.png in Resources */,
 				42A1966E18BCC6FA0072BC4A /* sample_3.jpg in Resources */,
@@ -607,10 +615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageUploadTutorial/BuiltFileUpload-Prefix.pch";
 				INFOPLIST_FILE = "ImageUploadTutorial/BuiltFileUpload-Info.plist";
@@ -624,10 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SRCROOT)",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageUploadTutorial/BuiltFileUpload-Prefix.pch";
 				INFOPLIST_FILE = "ImageUploadTutorial/BuiltFileUpload-Info.plist";

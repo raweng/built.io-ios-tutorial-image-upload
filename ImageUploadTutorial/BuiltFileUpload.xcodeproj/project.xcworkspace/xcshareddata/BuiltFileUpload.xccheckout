@@ -10,43 +10,43 @@
 	<string>BuiltFileUpload</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>12A57F2B-F50F-4D9E-8363-8F902A09EA93</key>
+		<key>301F2ED150A8C22BC3A5A6C5E44B3D1BC7F37F7A</key>
 		<string>https://github.com/raweng/built.io-ios-tutorial-image-upload.git</string>
-		<key>C3D93E47-AC2B-4114-841B-A28D7A7A292D</key>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
 		<string>https://github.com/raweng/built.io-ios-framework</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ImageUploadTutorial/BuiltFileUpload.xcodeproj/project.xcworkspace</string>
+	<string>ImageUploadTutorial/BuiltFileUpload.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>12A57F2B-F50F-4D9E-8363-8F902A09EA93</key>
+		<key>301F2ED150A8C22BC3A5A6C5E44B3D1BC7F37F7A</key>
 		<string>../../..</string>
-		<key>C3D93E47-AC2B-4114-841B-A28D7A7A292D</key>
-		<string>../../../built.io-ios-framework</string>
+		<key>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</key>
+		<string>../../..built.io-ios-framework/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/raweng/built.io-ios-tutorial-image-upload.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>12A57F2B-F50F-4D9E-8363-8F902A09EA93</string>
+	<string>301F2ED150A8C22BC3A5A6C5E44B3D1BC7F37F7A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>12A57F2B-F50F-4D9E-8363-8F902A09EA93</string>
+			<string>ACD166E1E08D0FB272C4B42C03503CFA623DE62B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built</string>
+			<string>built.io-ios-framework</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C3D93E47-AC2B-4114-841B-A28D7A7A292D</string>
+			<string>301F2ED150A8C22BC3A5A6C5E44B3D1BC7F37F7A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>built.io-ios-framework</string>
+			<string>built.io-ios-tutorial-image-upload</string>
 		</dict>
 	</array>
 </dict>

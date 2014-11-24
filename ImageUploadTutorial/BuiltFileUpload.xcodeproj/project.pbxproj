@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23D375D71A230C10004B0EED /* BuiltFileUploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D375D61A230C10004B0EED /* BuiltFileUploadTests.m */; };
 		423DA30D18BF466500A3C787 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA30C18BF466500A3C787 /* SDWebImage.framework */; };
 		423DA30F18BF467700A3C787 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423DA30E18BF467600A3C787 /* ImageIO.framework */; };
 		423DA31618BF6CA200A3C787 /* MHFacebookImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 423DA31218BF6CA200A3C787 /* MHFacebookImageViewer.m */; };
@@ -33,11 +34,6 @@
 		42A1962818BC78490072BC4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A1962718BC78490072BC4A /* AppDelegate.m */; };
 		42A1962B18BC78490072BC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A1962918BC78490072BC4A /* Main.storyboard */; };
 		42A1963018BC78490072BC4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A1962F18BC78490072BC4A /* Images.xcassets */; };
-		42A1963718BC78490072BC4A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A1963618BC78490072BC4A /* XCTest.framework */; };
-		42A1963818BC78490072BC4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A1961718BC78490072BC4A /* Foundation.framework */; };
-		42A1963918BC78490072BC4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A1961B18BC78490072BC4A /* UIKit.framework */; };
-		42A1964118BC78490072BC4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42A1963F18BC78490072BC4A /* InfoPlist.strings */; };
-		42A1964318BC78490072BC4A /* ImageUploadTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A1964218BC78490072BC4A /* ImageUploadTutorialTests.m */; };
 		42A1965118BC8EA60072BC4A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A1965018BC8EA60072BC4A /* QuartzCore.framework */; };
 		42A1965318BC8EBB0072BC4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A1965218BC8EBB0072BC4A /* Security.framework */; };
 		42A1965518BC8EC60072BC4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A1965418BC8EC60072BC4A /* SystemConfiguration.framework */; };
@@ -63,16 +59,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		42A1963A18BC78490072BC4A /* PBXContainerItemProxy */ = {
+		23D375D81A230C10004B0EED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 42A1960C18BC78490072BC4A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 42A1961318BC78490072BC4A;
-			remoteInfo = ImageUploadTutorial;
+			remoteInfo = BuiltFileUpload;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23D375D21A230C10004B0EED /* BuiltFileUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltFileUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D375D51A230C10004B0EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D375D61A230C10004B0EED /* BuiltFileUploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltFileUploadTests.m; sourceTree = "<group>"; };
 		423DA30C18BF466500A3C787 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 		423DA30E18BF467600A3C787 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		423DA31118BF6CA200A3C787 /* MHFacebookImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFacebookImageViewer.h; sourceTree = "<group>"; };
@@ -117,7 +116,6 @@
 		42A1962718BC78490072BC4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42A1962A18BC78490072BC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42A1962F18BC78490072BC4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		42A1963518BC78490072BC4A /* BuiltFileUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltFileUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A1963618BC78490072BC4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		42A1963E18BC78490072BC4A /* BuiltFileUploadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltFileUploadTests-Info.plist"; sourceTree = "<group>"; };
 		42A1964018BC78490072BC4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -147,6 +145,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		23D375CF1A230C10004B0EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42A1961118BC78490072BC4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,19 +175,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A1963218BC78490072BC4A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42A1963718BC78490072BC4A /* XCTest.framework in Frameworks */,
-				42A1963918BC78490072BC4A /* UIKit.framework in Frameworks */,
-				42A1963818BC78490072BC4A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23D375D31A230C10004B0EED /* BuiltFileUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				23D375D61A230C10004B0EED /* BuiltFileUploadTests.m */,
+				23D375D41A230C10004B0EED /* Supporting Files */,
+			);
+			path = BuiltFileUploadTests;
+			sourceTree = "<group>";
+		};
+		23D375D41A230C10004B0EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23D375D51A230C10004B0EED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		423DA31018BF6CA200A3C787 /* MHFBImageViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +263,7 @@
 			children = (
 				42A1961D18BC78490072BC4A /* ImageUploadTutorial */,
 				42A1963C18BC78490072BC4A /* ImageUploadTutorialTests */,
+				23D375D31A230C10004B0EED /* BuiltFileUploadTests */,
 				42A1961618BC78490072BC4A /* Frameworks */,
 				42A1961518BC78490072BC4A /* Products */,
 			);
@@ -260,7 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				42A1961418BC78490072BC4A /* BuiltFileUpload.app */,
-				42A1963518BC78490072BC4A /* BuiltFileUploadTests.xctest */,
+				23D375D21A230C10004B0EED /* BuiltFileUploadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -367,6 +380,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		23D375D11A230C10004B0EED /* BuiltFileUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D375DA1A230C10004B0EED /* Build configuration list for PBXNativeTarget "BuiltFileUploadTests" */;
+			buildPhases = (
+				23D375CE1A230C10004B0EED /* Sources */,
+				23D375CF1A230C10004B0EED /* Frameworks */,
+				23D375D01A230C10004B0EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23D375D91A230C10004B0EED /* PBXTargetDependency */,
+			);
+			name = BuiltFileUploadTests;
+			productName = BuiltFileUploadTests;
+			productReference = 23D375D21A230C10004B0EED /* BuiltFileUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		42A1961318BC78490072BC4A /* BuiltFileUpload */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42A1964618BC78490072BC4A /* Build configuration list for PBXNativeTarget "BuiltFileUpload" */;
@@ -384,24 +415,6 @@
 			productReference = 42A1961418BC78490072BC4A /* BuiltFileUpload.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42A1963418BC78490072BC4A /* BuiltFileUploadTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42A1964918BC78490072BC4A /* Build configuration list for PBXNativeTarget "BuiltFileUploadTests" */;
-			buildPhases = (
-				42A1963118BC78490072BC4A /* Sources */,
-				42A1963218BC78490072BC4A /* Frameworks */,
-				42A1963318BC78490072BC4A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42A1963B18BC78490072BC4A /* PBXTargetDependency */,
-			);
-			name = BuiltFileUploadTests;
-			productName = ImageUploadTutorialTests;
-			productReference = 42A1963518BC78490072BC4A /* BuiltFileUploadTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -411,7 +424,8 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Sameer;
 				TargetAttributes = {
-					42A1963418BC78490072BC4A = {
+					23D375D11A230C10004B0EED = {
+						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 42A1961318BC78490072BC4A;
 					};
 				};
@@ -430,12 +444,19 @@
 			projectRoot = "";
 			targets = (
 				42A1961318BC78490072BC4A /* BuiltFileUpload */,
-				42A1963418BC78490072BC4A /* BuiltFileUploadTests */,
+				23D375D11A230C10004B0EED /* BuiltFileUploadTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		23D375D01A230C10004B0EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42A1961218BC78490072BC4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,17 +481,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A1963318BC78490072BC4A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42A1964118BC78490072BC4A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		23D375CE1A230C10004B0EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D375D71A230C10004B0EED /* BuiltFileUploadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42A1961018BC78490072BC4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,21 +514,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42A1963118BC78490072BC4A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42A1964318BC78490072BC4A /* ImageUploadTutorialTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42A1963B18BC78490072BC4A /* PBXTargetDependency */ = {
+		23D375D91A230C10004B0EED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 42A1961318BC78490072BC4A /* BuiltFileUpload */;
-			targetProxy = 42A1963A18BC78490072BC4A /* PBXContainerItemProxy */;
+			targetProxy = 23D375D81A230C10004B0EED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,6 +552,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		23D375DB1A230C10004B0EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltFileUploadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltFileUpload.app/BuiltFileUpload";
+			};
+			name = Debug;
+		};
+		23D375DC1A230C10004B0EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = BuiltFileUploadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuiltFileUpload.app/BuiltFileUpload";
+			};
+			name = Release;
+		};
 		42A1964418BC78490072BC4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -639,51 +696,17 @@
 			};
 			name = Release;
 		};
-		42A1964A18BC78490072BC4A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageUploadTutorial.app/ImageUploadTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageUploadTutorial/ImageUploadTutorial-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ImageUploadTutorialTests/BuiltFileUploadTests-Info.plist";
-				PRODUCT_NAME = BuiltFileUploadTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		42A1964B18BC78490072BC4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageUploadTutorial.app/ImageUploadTutorial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageUploadTutorial/ImageUploadTutorial-Prefix.pch";
-				INFOPLIST_FILE = "ImageUploadTutorialTests/BuiltFileUploadTests-Info.plist";
-				PRODUCT_NAME = BuiltFileUploadTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23D375DA1A230C10004B0EED /* Build configuration list for PBXNativeTarget "BuiltFileUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D375DB1A230C10004B0EED /* Debug */,
+				23D375DC1A230C10004B0EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		42A1960F18BC78490072BC4A /* Build configuration list for PBXProject "BuiltFileUpload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -698,15 +721,6 @@
 			buildConfigurations = (
 				42A1964718BC78490072BC4A /* Debug */,
 				42A1964818BC78490072BC4A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42A1964918BC78490072BC4A /* Build configuration list for PBXNativeTarget "BuiltFileUploadTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42A1964A18BC78490072BC4A /* Debug */,
-				42A1964B18BC78490072BC4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

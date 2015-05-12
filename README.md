@@ -1,4 +1,4 @@
-built.io-ios-tutorial-image-upload
-==================================
+Image Upload Tutorial
+======================
 
-This sample project demonstrates how to upload and download files using the BuiltFile class.
+This sample project demonstrates how to upload and download files using the BuiltUpload class.

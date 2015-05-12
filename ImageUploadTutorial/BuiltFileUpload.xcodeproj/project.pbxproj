@@ -53,9 +53,11 @@
 		42A1967218BCC6FA0072BC4A /* sample_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42A1966A18BCC6FA0072BC4A /* sample_7.jpg */; };
 		42D106831917C5AB003A7807 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42D106811917C5AA003A7807 /* BuiltIO.bundle */; };
 		42D106841917C5AB003A7807 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D106821917C5AB003A7807 /* BuiltIO.framework */; };
-		42EF5260190A8FF0008346CB /* Image-Upload58.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525D190A8FF0008346CB /* Image-Upload58.png */; };
-		42EF5261190A8FF0008346CB /* Image-Upload80.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525E190A8FF0008346CB /* Image-Upload80.png */; };
-		42EF5262190A8FF0008346CB /* Image-Upload120.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EF525F190A8FF0008346CB /* Image-Upload120.png */; };
+		FA231A9E1A9F1F5400434E36 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A9D1A9F1F5400434E36 /* libicucore.dylib */; };
+		FA231AA01A9F1F6200434E36 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231A9F1A9F1F6200434E36 /* libsqlite3.dylib */; };
+		FA231AA21A9F1F6A00434E36 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AA11A9F1F6A00434E36 /* libc++.dylib */; };
+		FA231AA41A9F1F7C00434E36 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AA31A9F1F7C00434E36 /* CoreData.framework */; };
+		FA231AA61A9F1F8400434E36 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA231AA51A9F1F8400434E36 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,9 +119,6 @@
 		42A1962A18BC78490072BC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42A1962F18BC78490072BC4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42A1963618BC78490072BC4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		42A1963E18BC78490072BC4A /* BuiltFileUploadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltFileUploadTests-Info.plist"; sourceTree = "<group>"; };
-		42A1964018BC78490072BC4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42A1964218BC78490072BC4A /* ImageUploadTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUploadTutorialTests.m; sourceTree = "<group>"; };
 		42A1965018BC8EA60072BC4A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		42A1965218BC8EBB0072BC4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		42A1965418BC8EC60072BC4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -139,9 +138,11 @@
 		42A1966A18BCC6FA0072BC4A /* sample_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_7.jpg; sourceTree = "<group>"; };
 		42D106811917C5AA003A7807 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BuiltIO.bundle; path = "../built.io-ios-framework/BuiltIO.bundle"; sourceTree = "<group>"; };
 		42D106821917C5AB003A7807 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuiltIO.framework; path = "../built.io-ios-framework/BuiltIO.framework"; sourceTree = "<group>"; };
-		42EF525D190A8FF0008346CB /* Image-Upload58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload58.png"; sourceTree = "<group>"; };
-		42EF525E190A8FF0008346CB /* Image-Upload80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload80.png"; sourceTree = "<group>"; };
-		42EF525F190A8FF0008346CB /* Image-Upload120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image-Upload120.png"; sourceTree = "<group>"; };
+		FA231A9D1A9F1F5400434E36 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FA231A9F1A9F1F6200434E36 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FA231AA11A9F1F6A00434E36 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FA231AA31A9F1F7C00434E36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA231AA51A9F1F8400434E36 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +157,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA231AA61A9F1F8400434E36 /* CoreFoundation.framework in Frameworks */,
+				FA231AA41A9F1F7C00434E36 /* CoreData.framework in Frameworks */,
+				FA231AA21A9F1F6A00434E36 /* libc++.dylib in Frameworks */,
+				FA231AA01A9F1F6200434E36 /* libsqlite3.dylib in Frameworks */,
+				FA231A9E1A9F1F5400434E36 /* libicucore.dylib in Frameworks */,
 				423DA30F18BF467700A3C787 /* ImageIO.framework in Frameworks */,
 				423EDCA718BDFE4300215E49 /* MobileCoreServices.framework in Frameworks */,
 				42A1966118BC8EFE0072BC4A /* Accounts.framework in Frameworks */,
@@ -261,8 +267,7 @@
 		42A1960B18BC78490072BC4A = {
 			isa = PBXGroup;
 			children = (
-				42A1961D18BC78490072BC4A /* ImageUploadTutorial */,
-				42A1963C18BC78490072BC4A /* ImageUploadTutorialTests */,
+				42A1961D18BC78490072BC4A /* BuiltFileUpload */,
 				23D375D31A230C10004B0EED /* BuiltFileUploadTests */,
 				42A1961618BC78490072BC4A /* Frameworks */,
 				42A1961518BC78490072BC4A /* Products */,
@@ -281,6 +286,11 @@
 		42A1961618BC78490072BC4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA231AA51A9F1F8400434E36 /* CoreFoundation.framework */,
+				FA231AA31A9F1F7C00434E36 /* CoreData.framework */,
+				FA231AA11A9F1F6A00434E36 /* libc++.dylib */,
+				FA231A9F1A9F1F6200434E36 /* libsqlite3.dylib */,
+				FA231A9D1A9F1F5400434E36 /* libicucore.dylib */,
 				42D106811917C5AA003A7807 /* BuiltIO.bundle */,
 				42D106821917C5AB003A7807 /* BuiltIO.framework */,
 				423DA30E18BF467600A3C787 /* ImageIO.framework */,
@@ -303,7 +313,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		42A1961D18BC78490072BC4A /* ImageUploadTutorial */ = {
+		42A1961D18BC78490072BC4A /* BuiltFileUpload */ = {
 			isa = PBXGroup;
 			children = (
 				423DA31918BF6F0200A3C787 /* AFNetworking */,
@@ -319,7 +329,7 @@
 				423EDCAC18BE2ACD00215E49 /* PhotosViewController.h */,
 				423EDCAD18BE2ACD00215E49 /* PhotosViewController.m */,
 			);
-			path = ImageUploadTutorial;
+			path = BuiltFileUpload;
 			sourceTree = "<group>";
 		};
 		42A1961E18BC78490072BC4A /* Supporting Files */ = {
@@ -333,28 +343,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		42A1963C18BC78490072BC4A /* ImageUploadTutorialTests */ = {
-			isa = PBXGroup;
-			children = (
-				42A1964218BC78490072BC4A /* ImageUploadTutorialTests.m */,
-				42A1963D18BC78490072BC4A /* Supporting Files */,
-			);
-			path = ImageUploadTutorialTests;
-			sourceTree = "<group>";
-		};
-		42A1963D18BC78490072BC4A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				42A1963E18BC78490072BC4A /* BuiltFileUploadTests-Info.plist */,
-				42A1963F18BC78490072BC4A /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		42A1966218BCC6E00072BC4A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42EF525C190A8FD0008346CB /* AppIcons */,
 				42A1966318BCC6FA0072BC4A /* sample_0.jpg */,
 				42A1966418BCC6FA0072BC4A /* sample_1.jpg */,
 				42A1966518BCC6FA0072BC4A /* sample_2.jpg */,
@@ -365,16 +356,6 @@
 				42A1966A18BCC6FA0072BC4A /* sample_7.jpg */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		42EF525C190A8FD0008346CB /* AppIcons */ = {
-			isa = PBXGroup;
-			children = (
-				42EF525D190A8FF0008346CB /* Image-Upload58.png */,
-				42EF525E190A8FF0008346CB /* Image-Upload80.png */,
-				42EF525F190A8FF0008346CB /* Image-Upload120.png */,
-			);
-			path = AppIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,18 +444,15 @@
 			files = (
 				42A1963018BC78490072BC4A /* Images.xcassets in Resources */,
 				42A1966C18BCC6FA0072BC4A /* sample_1.jpg in Resources */,
-				42EF5261190A8FF0008346CB /* Image-Upload80.png in Resources */,
 				423DA31818BF6CA200A3C787 /* Done@2x.png in Resources */,
 				42A1966D18BCC6FA0072BC4A /* sample_2.jpg in Resources */,
 				42A1962218BC78490072BC4A /* InfoPlist.strings in Resources */,
 				42A1962B18BC78490072BC4A /* Main.storyboard in Resources */,
 				42A1966B18BCC6FA0072BC4A /* sample_0.jpg in Resources */,
-				42EF5260190A8FF0008346CB /* Image-Upload58.png in Resources */,
 				42A1967218BCC6FA0072BC4A /* sample_7.jpg in Resources */,
 				42A1966F18BCC6FA0072BC4A /* sample_4.jpg in Resources */,
 				42D106831917C5AB003A7807 /* BuiltIO.bundle in Resources */,
 				423DA31718BF6CA200A3C787 /* Done.png in Resources */,
-				42EF5262190A8FF0008346CB /* Image-Upload120.png in Resources */,
 				42A1966E18BCC6FA0072BC4A /* sample_3.jpg in Resources */,
 				42A1967118BCC6FA0072BC4A /* sample_6.jpg in Resources */,
 				42A1967018BCC6FA0072BC4A /* sample_5.jpg in Resources */,
@@ -539,14 +517,6 @@
 				42A1962A18BC78490072BC4A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42A1963F18BC78490072BC4A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42A1964018BC78490072BC4A /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -671,11 +641,12 @@
 		42A1964718BC78490072BC4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageUploadTutorial/BuiltFileUpload-Prefix.pch";
-				INFOPLIST_FILE = "ImageUploadTutorial/BuiltFileUpload-Info.plist";
+				GCC_PREFIX_HEADER = "BuiltFileUpload/BuiltFileUpload-Prefix.pch";
+				INFOPLIST_FILE = "BuiltFileUpload/BuiltFileUpload-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BuiltFileUpload;
 				WRAPPER_EXTENSION = app;
@@ -685,11 +656,12 @@
 		42A1964818BC78490072BC4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ImageUploadTutorial/BuiltFileUpload-Prefix.pch";
-				INFOPLIST_FILE = "ImageUploadTutorial/BuiltFileUpload-Info.plist";
+				GCC_PREFIX_HEADER = "BuiltFileUpload/BuiltFileUpload-Prefix.pch";
+				INFOPLIST_FILE = "BuiltFileUpload/BuiltFileUpload-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BuiltFileUpload;
 				WRAPPER_EXTENSION = app;
@@ -706,6 +678,7 @@
 				23D375DC1A230C10004B0EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42A1960F18BC78490072BC4A /* Build configuration list for PBXProject "BuiltFileUpload" */ = {
 			isa = XCConfigurationList;
